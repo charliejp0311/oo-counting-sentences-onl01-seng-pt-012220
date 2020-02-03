@@ -3,6 +3,7 @@ require 'pry'
 class String
 
   def sentence?(s = "NOPE")
+    binding.pry
     s.end_with?(".") ? true : false
   end
 
