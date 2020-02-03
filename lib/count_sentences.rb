@@ -17,7 +17,7 @@ class String
   def count_sentences
     sentences = []
     sentences << self.split(".")
-    binding.pry
+    sentences.flatten!
     sentences.length
   end
 
