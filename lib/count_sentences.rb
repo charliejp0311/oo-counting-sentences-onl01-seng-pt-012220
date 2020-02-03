@@ -18,6 +18,7 @@ class String
     sentences = []
     sentences << self.split(".","?","!")
     sentences.length
+    binding.pry
   end
 
 end
