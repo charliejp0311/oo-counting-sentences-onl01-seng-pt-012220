@@ -16,6 +16,7 @@ class String
 
   def count_sentences
     binding.pry
+    sentences = []
     sentences << self.split(".","?","!")
     sentences.length
   end
