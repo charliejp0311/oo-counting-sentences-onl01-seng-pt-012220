@@ -8,7 +8,7 @@ class String
     else
       s.end_with?(".") ? true : false
     end
-    
+
   end
 
   def question?
